@@ -1,26 +1,21 @@
 import { motion } from 'framer-motion'
-import { Code, Zap, Users, Rocket } from 'lucide-react'
+import { Eye, Layers, ArrowRight } from 'lucide-react'
 
 const features = [
     {
-        icon: <Code size={24} />,
-        title: 'The AI Stack',
-        description: 'Choosing the right models and tools for your idea. Learn which LLMs actually work for production.'
+        icon: <Eye size={24} />,
+        title: 'The Build',
+        description: "I'll take an idea and turn it into a working app in 60 minutes. You'll see every step—the tools, the prompts, the decisions."
     },
     {
-        icon: <Zap size={24} />,
-        title: 'Speed-Building',
-        description: 'How to use AI to write code, design UI, and handle logic in record time. From zero to functional application.'
+        icon: <Layers size={24} />,
+        title: 'The Stack',
+        description: 'Which AI tools actually work for building apps fast. What I use every day.'
     },
     {
-        icon: <Users size={24} />,
-        title: 'Your First Users',
-        description: 'Real strategies to find and keep your first customers without a marketing budget.'
-    },
-    {
-        icon: <Rocket size={24} />,
-        title: 'Scale & Launch',
-        description: 'The roadmap for what comes after the initial build. How to pivot from a prototype to a real business.'
+        icon: <ArrowRight size={24} />,
+        title: 'The Path Forward',
+        description: "What to do after the webinar if you want to build your own. I'll show you exactly where to start."
     }
 ]
 
@@ -29,11 +24,11 @@ const Features = () => {
         <section id="features" className="features">
             <div className="container">
                 <div className="section-header">
-                    <h2 className="section-title">What You'll <span className="gradient-text">Master</span></h2>
-                    <p className="section-subtitle">Practical skills you need to build and launch in record time.</p>
+                    <h2 className="section-title">What You'll <span className="gradient-text">See</span></h2>
+                    <p className="section-subtitle">This isn't a lecture. It's a live build.</p>
                 </div>
 
-                <div className="features-grid-2x2">
+                <div className="features-grid-3">
                     {features.map((feature, index) => (
                         <motion.div
                             key={index}

@@ -23,8 +23,8 @@ const Hero = ({ onRegisterClick }) => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="hero-title"
                     >
-                        Build and Launch an <br />
-                        <span className="gradient-text">App with AI</span>
+                        Vibe Coding 101: <br />
+                        <span className="gradient-text">Build an App in 60 Minutes</span>
                     </motion.h1>
 
                     <motion.p
@@ -33,8 +33,7 @@ const Hero = ({ onRegisterClick }) => {
                         transition={{ duration: 0.8, delay: 0.4 }}
                         className="hero-subtitle"
                     >
-                        And get your first users or customers. A live masterclass on building functional,
-                        market-ready applications using the power of AI.
+                        Watch me build a working app from scratch—live. Then learn how to do it yourself.
                     </motion.p>
 
                     <motion.div

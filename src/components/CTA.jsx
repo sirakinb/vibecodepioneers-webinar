@@ -11,7 +11,7 @@ const CTA = ({ onRegisterClick }) => {
                     className="cta-card"
                 >
                     <h2 className="cta-title">Ready to build?</h2>
-                    <p className="cta-subtitle">Join us to be the first to know when we open registration. Spots are limited to keep the session interactive.</p>
+                    <p className="cta-subtitle">Spots are limited to keep the session interactive.</p>
 
                     <div className="cta-actions">
                         <button onClick={onRegisterClick} className="btn-primary">

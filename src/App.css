@@ -77,6 +77,7 @@
   line-height: 1.1;
   margin-bottom: 1.5rem;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 .hero-subtitle {
@@ -208,6 +209,14 @@
   margin: 0 auto;
 }
 
+.features-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
 .feature-card {
   padding: 2.5rem;
   border-radius: 24px;
@@ -240,6 +249,101 @@
 .feature-description {
   font-size: 1rem;
   line-height: 1.6;
+}
+
+/* Audience Cards */
+.audience-card {
+  padding: 3rem 4rem;
+  border-radius: 32px;
+  margin-top: 2rem;
+}
+
+.audience-card.not-for {
+  background: rgba(239, 68, 68, 0.05);
+  border-color: rgba(239, 68, 68, 0.2);
+}
+
+.audience-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.audience-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.check-icon {
+  width: 24px;
+  height: 24px;
+  color: #4ade80;
+  flex-shrink: 0;
+}
+
+.x-icon {
+  width: 24px;
+  height: 24px;
+  color: #ef4444;
+  flex-shrink: 0;
+}
+
+/* Host Section */
+.host-card {
+  padding: 3rem 4rem;
+  border-radius: 32px;
+  margin-top: 2rem;
+}
+
+.host-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.host-photo-placeholder {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: rgba(129, 140, 248, 0.1);
+  border: 2px solid rgba(129, 140, 248, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-primary);
+  flex-shrink: 0;
+}
+
+.host-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(129, 140, 248, 0.3);
+  flex-shrink: 0;
+}
+
+.host-info {
+  text-align: left;
+}
+
+.host-name {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.host-bio {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0;
 }
 
 /* Details Section */
@@ -377,5 +481,26 @@
 
   .features-grid-2x2 {
     grid-template-columns: 1fr;
+  }
+
+  .features-grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .audience-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .host-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .host-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-info {
+    text-align: center;
   }
 }

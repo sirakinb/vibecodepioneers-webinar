@@ -4,10 +4,10 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-content">
                     <div className="footer-logo">
-                        <span className="gradient-text">AI Masterclass</span>
+                        <span className="gradient-text">Vibe Code Pioneers</span>
                     </div>
                     <p className="footer-copyright">
-                        © {new Date().getFullYear()} AI Masterclass. Grab your spot for the live session.
+                        © {new Date().getFullYear()} Vibe Code Pioneers. Grab your spot for the live session.
                     </p>
                 </div>
             </div>
