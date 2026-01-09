@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Calendar, Clock, MapPin, CheckCircle, XCircle } from 'lucide-react'
+import Countdown from './Countdown'
 
 const Details = () => {
     return (
@@ -31,6 +32,9 @@ const Details = () => {
                             </div>
                         </div>
                     </div>
+
+                    {/* Live Countdown */}
+                    <Countdown />
                 </div>
 
                 {/* Who This Is For Section */}
