@@ -14,7 +14,7 @@ const Hero = ({ onRegisterClick }) => {
                         className="badge"
                     >
                         <div className="glowing-dot"></div>
-                        <span>Live Webinar</span>
+                        <span>LIVE WEBINAR</span>
                     </motion.div>
 
                     <motion.h1
@@ -23,8 +23,8 @@ const Hero = ({ onRegisterClick }) => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="hero-title"
                     >
-                        Vibe Coding 101: <br />
-                        <span className="gradient-text">Build an App in 60 Minutes</span>
+                        Claude Code for Beginners: <br />
+                        <span className="gradient-text">A Live Build Session</span>
                     </motion.h1>
 
                     <motion.p
@@ -33,7 +33,7 @@ const Hero = ({ onRegisterClick }) => {
                         transition={{ duration: 0.8, delay: 0.4 }}
                         className="hero-subtitle"
                     >
-                        Watch me build a working app from scratch—live. Then learn how to do it yourself.
+                        Watch me build a working app from scratch using Claude Code. And learn how you can too.
                     </motion.p>
 
                     <motion.div

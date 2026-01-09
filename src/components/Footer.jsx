@@ -7,7 +7,7 @@ const Footer = () => {
                         <span className="gradient-text">Vibe Code Pioneers</span>
                     </div>
                     <p className="footer-copyright">
-                        © {new Date().getFullYear()} Vibe Code Pioneers. Grab your spot for the live session.
+                        © 2026 Vibe Code Pioneers. Grab your spot for the live session.
                     </p>
                 </div>
             </div>

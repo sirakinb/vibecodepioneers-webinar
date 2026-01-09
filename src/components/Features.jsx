@@ -1,21 +1,26 @@
 import { motion } from 'framer-motion'
-import { Eye, Layers, ArrowRight } from 'lucide-react'
+import { Terminal, Hammer, HelpCircle, Globe } from 'lucide-react'
 
 const features = [
     {
-        icon: <Eye size={24} />,
+        icon: <HelpCircle size={24} />,
+        title: 'What is Claude Code?',
+        description: "Where does it live? How do you use it? I'll break down what Claude Code actually is and the different environments you can build in—so it stops feeling ethereal and starts making sense."
+    },
+    {
+        icon: <Hammer size={24} />,
         title: 'The Build',
-        description: "I'll take an idea and turn it into a working app in 60 minutes. You'll see every step—the tools, the prompts, the decisions."
+        description: "I'll take an idea and turn it into a working app. You'll see the setup, the prompts, and the workflow in real time."
     },
     {
-        icon: <Layers size={24} />,
-        title: 'The Stack',
-        description: 'Which AI tools actually work for building apps fast. What I use every day.'
+        icon: <Terminal size={24} />,
+        title: 'When to Use What',
+        description: "Claude Code vs. tools like Lovable, Bolt, and Replit—when does each make sense? I'll share how I think about choosing the right tool for the job."
     },
     {
-        icon: <ArrowRight size={24} />,
-        title: 'The Path Forward',
-        description: "What to do after the webinar if you want to build your own. I'll show you exactly where to start."
+        icon: <Globe size={24} />,
+        title: 'The Bigger Picture',
+        description: "If you've been hearing about AI coding, agents, Claude Skills, Codex—this session will give you the foundation to understand where it's all going and how Claude Code fits in."
     }
 ]
 
@@ -28,7 +33,7 @@ const Features = () => {
                     <p className="section-subtitle">This isn't a lecture. It's a live build.</p>
                 </div>
 
-                <div className="features-grid-3">
+                <div className="features-grid-3" style={{ gridTemplateColumns: 'repeat(2, 1fr)' }}>
                     {features.map((feature, index) => (
                         <motion.div
                             key={index}

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Calendar, Clock, MapPin, CheckCircle, XCircle, User } from 'lucide-react'
+import { Calendar, Clock, MapPin, CheckCircle, XCircle } from 'lucide-react'
 
 const Details = () => {
     return (
@@ -13,7 +13,7 @@ const Details = () => {
                             <Calendar className="detail-icon" />
                             <div>
                                 <h4>Date</h4>
-                                <p>Saturday, January 11th, 2026</p>
+                                <p>Sunday, January 26th, 2026</p>
                             </div>
                         </div>
                         <div className="detail-item">
@@ -45,19 +45,19 @@ const Details = () => {
                     <ul className="audience-list">
                         <li className="audience-item">
                             <CheckCircle className="check-icon" />
-                            <span>Designers who want to build functional products, not just mockups</span>
+                            <span>You've heard about Claude Code but haven't tried it yet</span>
                         </li>
                         <li className="audience-item">
                             <CheckCircle className="check-icon" />
-                            <span>Developers curious about AI-native workflows</span>
+                            <span>You've used tools like lovable, bolt or replit and want to learn how you can use more advanced models like Claude Code even if you're non technical</span>
                         </li>
                         <li className="audience-item">
                             <CheckCircle className="check-icon" />
-                            <span>Creators and consultants who want to turn ideas into software</span>
+                            <span>You're curious about AI agents, workflows, and where this is all heading</span>
                         </li>
                         <li className="audience-item">
                             <CheckCircle className="check-icon" />
-                            <span>Anyone who's been meaning to build something but hasn't started</span>
+                            <span>You want a clear foundation before going deeper</span>
                         </li>
                     </ul>
                 </motion.div>
@@ -74,11 +74,11 @@ const Details = () => {
                     <ul className="audience-list">
                         <li className="audience-item">
                             <XCircle className="x-icon" />
-                            <span>People looking for a passive course to watch later</span>
+                            <span>People looking for a passive recording to watch later</span>
                         </li>
                         <li className="audience-item">
                             <XCircle className="x-icon" />
-                            <span>Anyone not willing to actually build something</span>
+                            <span>Anyone not ready to actually build something</span>
                         </li>
                     </ul>
                 </motion.div>
@@ -101,7 +101,7 @@ const Details = () => {
                         <div className="host-info">
                             <h3 className="host-name">Akinyemi Bajulaiye</h3>
                             <p className="host-bio">
-                                I've built 20+ functional apps over the last year and a half—web apps, mobile apps, chrome extensions—for consumer and B2B use cases. I'm a big advocate for the new era of building with AI, formally known as vibe coding.
+                                I've built 20+ functional apps over the last year and a half—web apps, mobile apps, chrome extensions—using AI-native tools. I'm a big advocate for vibe coding and the new era of building with AI.
                             </p>
                         </div>
                     </div>

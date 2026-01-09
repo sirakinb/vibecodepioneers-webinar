@@ -18,7 +18,7 @@ const CTA = ({ onRegisterClick }) => {
                             Reserve My Free Spot
                         </button>
                     </div>
-                    <p className="cta-note">Strictly no spam. Just the webinar invite.</p>
+                    <p className="cta-note">Just the webinar invite.</p>
                 </motion.div>
             </div>
         </section>

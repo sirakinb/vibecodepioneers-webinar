@@ -57,7 +57,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
 
                             <div className="modal-header-section">
                                 <div className="modal-icon-badge">
-                                    <Rocket size={24} className="text-secondary" />
+                                    <img src="/favicon.ico" alt="Logo" className="modal-logo-img" />
                                 </div>
                                 <h2 className="modal-title">Secure Your Seat</h2>
                                 <p className="modal-subtitle">
@@ -66,7 +66,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
                             </div>
 
                             <form className="modal-form-modern" onSubmit={handleSubmit}>
-                                <div className="grid grid-cols-2 gap-4">
+                                <div className="form-row">
                                     <div className="form-group-modern">
                                         <label>First Name</label>
                                         <input
