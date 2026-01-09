@@ -8,7 +8,7 @@ This project is the landing page for the **"Claude Code for Beginners: A Live Bu
 
 The webinar is a live demonstration designed to demystify **Claude Code**—Anthropic's advanced coding agent. Instead of a lecture, this session focuses on a real-time build, showing users how to go from idea to working application using AI-native workflows.
 
-**Webinar Date:** Sunday, January 26th, 2026 @ 4:00 PM EST  
+**Webinar Date:** Sunday, January 25th, 2026 @ 4:00 PM EST  
 **Host:** Akinyemi Bajulaiye  
 **Topic:** Building apps from scratch with Claude Code vs. Lovable/Bolt/Replit.
 

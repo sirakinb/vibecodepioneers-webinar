@@ -13,7 +13,7 @@ const Countdown = () => {
     }, [])
 
     function calculateTimeLeft() {
-        const webinarDate = new Date('2026-01-26T16:00:00-05:00') // EST
+        const webinarDate = new Date('2026-01-25T16:00:00-05:00') // EST
         const now = new Date()
         const difference = webinarDate - now
 

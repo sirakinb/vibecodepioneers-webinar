@@ -14,7 +14,7 @@ const Details = () => {
                             <Calendar className="detail-icon" />
                             <div>
                                 <h4>Date</h4>
-                                <p>Sunday, January 26th, 2026</p>
+                                <p>Sunday, January 25th, 2026</p>
                             </div>
                         </div>
                         <div className="detail-item">
