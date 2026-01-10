@@ -105,7 +105,7 @@ const Details = () => {
                         <div className="host-info">
                             <h3 className="host-name">Akinyemi Bajulaiye</h3>
                             <p className="host-bio">
-                                I've built 20+ functional apps over the last year and a half—web apps, mobile apps, chrome extensions—using AI-native tools. I'm a big advocate for vibe coding and the new era of building with AI.
+                                I’m an AI innovator and automation developer who’s built 20+ functional apps over the past year and a half, including web apps, mobile apps, browser extensions and even desktop apps—powered by AI-native tools. I’m on a mission to bring vibe coding — a new way of building, that lets you turn ideas into real products by collaborating with AI — to the masses.
                             </p>
                         </div>
                     </div>
